@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/lezethoyt" target="blank"><img src="https://img.shields.io/twitter/follow/lezethoyt?logo=twitter&style=for-the-badge" alt="lezethoyt" /></a> </p>
 
-- 🔭 I’m currently working on [SneakyHub's Minecraft Server!](https://sneakyhub.com/discord)
+- 🔭 I’m currently working on an [Advanced Pterodactyl Purge Discord Bot!](https://discord.embotic.xyz)
 
 - 🌱 I’m currently learning **Advanced Javascript**
 
