@@ -15,7 +15,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/lezetho](https://github.com/lezetho)
 
-- 📫 How to reach me **lezethoyt@gmail.com OR lezetho@embotic.xyz**
+- 📫 How to reach me **lezethoyt@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
