@@ -1,1 +1,1 @@
-![picture](https://i.imgur.com/R2bJ42e.png) Lezetho
+![picture](https://i.imgur.com/7GF2qrW.png) Lezetho
