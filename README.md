@@ -12,3 +12,5 @@ const hello = {
   links: ["https://lezetho.co.uk","https://dsc.gg/hicommunity"]
 };
 ```
+
+### <p align=center> Statistics </p>
