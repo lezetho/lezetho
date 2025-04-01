@@ -15,4 +15,4 @@ const hello = {
 
 ### <p align=center> Statistics </p>
 
-<img align="left" src="./github-metrics.svg" alt="Github Metrics" /><img align="right" src="./github-metrics.svg" alt="Github Metrics" />
+<img align="left" src="./github-metrics.svg" alt="Github Metrics" /><img align="right" src="./wakatime-metrics.svg" alt="Wakatime Metrics" />
