@@ -61,28 +61,28 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">algo</span>
-                                <div class="bar" style="width: 32.903999999999996%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">41%</span>
+                                <div class="bar" style="width: 34.152%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">43%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">spookdev-motd</span>
-                                <div class="bar" style="width: 21.848%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">27%</span>
+                                <div class="bar" style="width: 19.208000000000002%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">24%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">dinosaurs</span>
-                                <div class="bar" style="width: 18.104%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">23%</span>
+                                <div class="bar" style="width: 11.632%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">15%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">tailscale</span>
+                                <div class="bar" style="width: 6.015999999999999%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">8%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">panel-bot</span>
-                                <div class="bar" style="width: 4.4319999999999995%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">6%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">lanyard</span>
-                                <div class="bar" style="width: 2.3440000000000003%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">3%</span>
+                                <div class="bar" style="width: 3.896%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">5%</span>
                             </div>
                         </div>
                     </section>
@@ -91,27 +91,27 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Other</span>
-                                <div class="bar" style="width: 78.35199999999999%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                                <span class="value">98%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">Shell</span>
-                                <div class="bar" style="width: 0.8400000000000001%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">1%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">JavaScript</span>
-                                <div class="bar" style="width: 0.36000000000000004%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">0%</span>
+                                <div class="bar" style="width: 77.576%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">97%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Image (svg)</span>
-                                <div class="bar" style="width: 0.22400000000000003%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.8%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">1%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">Shell</span>
+                                <div class="bar" style="width: 0.7440000000000001%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">1%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">YAML</span>
+                                <div class="bar" style="width: 0.368%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                             <div class="entry">
-                                <span class="name">PHP</span>
-                                <div class="bar" style="width: 0.136%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="name">JavaScript</span>
+                                <div class="bar" style="width: 0.312%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
