@@ -4,7 +4,7 @@
 ```javascript
 const hello = {
   name: "Lezetho",
-  age: 13,
+  age: 14,
   location: "United States",
   aboutMe: "I'm Lezetho, a 13-year-old guy who's been developing for over 5 years. I mainly code things including Discord Bots and websites; however, I'm currently learning PHP to expand my knowledge and develop products for Ctrlpanel.gg.",
   languages: ["javascript","python","html","markdown"],
