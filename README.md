@@ -6,8 +6,8 @@ const hello = {
   name: "Lezetho",
   age: 14,
   location: "United States",
-  aboutMe: "I'm Lezetho, a 14-year-old guy who's been developing for over 6 years. I mainly code things including Discord Bots and websites; however, I'm currently learning PHP to expand my knowledge and develop products for Ctrlpanel.gg.",
-  languages: ["javascript","python","html","markdown"],
+  aboutMe: "I'm Lezetho, a 14-year-old guy who's been developing for over 6 years. I mainly code things including Discord Bots and websites; however, I'm currently learning PHP to expand my knowledge and develop plugins with blueprint.zip.",
+  languages: ["javascript","typescript","python","html","markdown"],
   codeEditors: ["visualstudiocode","notepad"],
   links: ["https://lezetho.xyz"]
 };
