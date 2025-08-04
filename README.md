@@ -1,5 +1,5 @@
 # <p align=center> <img src="https://i.imgur.com/7GF2qrW.png" width=128 height=128></p>
-# <p align=center> <img src="https://komarev.com/ghpvc/?username=lezetho&label=Views&color=aec6cf&style=flat" alt="lezetho" /> </p>
+# <p align=center> <img src="https://komarev.com/ghpvc/?username=lezetho&label=Views&color=B08BB4&style=flat" alt="lezetho" /> </p>
 
 ```javascript
 const hello = {
