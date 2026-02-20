@@ -61,28 +61,28 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">baycity</span>
-                                <div class="bar" style="width: 17.784%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">22%</span>
+                                <div class="bar" style="width: 18.503999999999998%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">23%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">ras</span>
-                                <div class="bar" style="width: 12.24%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">15%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">ram</span>
-                                <div class="bar" style="width: 12.16%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">15%</span>
+                                <div class="bar" style="width: 14.463999999999999%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">18%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">utils</span>
-                                <div class="bar" style="width: 7.4879999999999995%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">9%</span>
+                                <div class="bar" style="width: 7.792%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">10%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Roblox-Account-Manager</span>
-                                <div class="bar" style="width: 6.343999999999999%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 6.143999999999999%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">8%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">shinobu</span>
+                                <div class="bar" style="width: 5.616%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">7%</span>
                             </div>
                         </div>
                     </section>
@@ -91,28 +91,28 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Other</span>
-                                <div class="bar" style="width: 68.272%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                                <span class="value">85%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">Dotenv</span>
-                                <div class="bar" style="width: 4.68%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">6%</span>
+                                <div class="bar" style="width: 69.50399999999999%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">87%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">JavaScript</span>
-                                <div class="bar" style="width: 4.247999999999999%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">5%</span>
+                                <div class="bar" style="width: 4.416%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">6%</span>
                             </div>
                             <div class="entry">
-                                <span class="name">Python</span>
-                                <div class="bar" style="width: 2.0559999999999996%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="name">Dotenv</span>
+                                <div class="bar" style="width: 2.296%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">3%</span>
                             </div>
                             <div class="entry">
-                                <span class="name">YAML</span>
-                                <div class="bar" style="width: 0.368%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">0%</span>
+                                <span class="name">Python</span>
+                                <div class="bar" style="width: 2.1359999999999997%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">3%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">JSON</span>
+                                <div class="bar" style="width: 1.016%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">1%</span>
                             </div>
                         </div>
                     </section>
