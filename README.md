@@ -1,19 +1,9 @@
 # <p align=center> <img src="https://i.imgur.com/7GF2qrW.png" width=128 height=128></p>
 # <p align=center> <img src="https://komarev.com/ghpvc/?username=lezetho&label=Views&color=B08BB4&style=flat" alt="lezetho" /> </p>
 
-```javascript
-const hello = {
-  name: "Lezetho",
-  age: 14,
-  location: "United States",
-  aboutMe: "I'm Lezetho, a 14-year-old guy who's been developing for over 6 years. I mainly code things including Discord Bots and websites; however, I'm currently learning PHP to expand my knowledge and develop plugins with blueprint.zip.",
-  languages: ["javascript","typescript","python","markdown"],
-  codeEditors: ["visualstudiocode","notepad"],
-  links: ["https://lezetho.xyz"]
-};
-```
+👋 hi, i'm **lezetho**, a javascript developer. currently im expanding my knowledge in terms of programming by starting projects (you may know some) and doing other things on the internet. most of my work can be found on my [portfolio](https://portfolio.lezetho.xyz) but if needed you can send me a message on [discord](https://discord.com/users/730375236197023785) or [email me](mailto:hello@lezetho.xyz)
 
-### <p align=center> Statistics </p>
+---
 
 <p align=center><img align=center src="./github-metrics.svg" alt="Github Metrics" /></p><br>
 <p align=center><img align=center src="./wakatime-metrics.svg" alt="Wakatime Metrics" /></p>
