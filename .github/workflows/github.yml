@@ -38,15 +38,7 @@ jobs:
               total: .computed.commits,
               contributed: .user.contributionsCollection.totalCommitContributions
             },
-            repositories: [
-              .user.repositories.nodes[] | {
-                name,
-                updatedAt,
-                isFork,
-                stars: .stargazers.totalCount,
-                forks: .forkCount
-              }
-            ],
+            repositories: .user.repositories.totalCount,
             organizations: {
               count: ($orgs[0] | length),
               list: $orgs[0]
@@ -56,7 +48,7 @@ jobs:
 
       - name: upd json
         run: |
-          git pull --rebase
+          git pull --rebase --autostash
           cp /tmp/trimmed.json github-metrics.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
