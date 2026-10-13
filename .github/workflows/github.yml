@@ -11,6 +11,8 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -20,4 +22,45 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_output: json
+          config_base64: no
           filename: github-metrics.json
+          output_action: none
+
+      - name: rebuild json
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          gh api --paginate user/orgs --jq '[.[] | {login, url: ("https://github.com/" + .login)}]' \
+            | jq -s 'add // []' > orgs.json
+
+          jq --slurpfile orgs orgs.json '{
+            commits: {
+              total: .computed.commits,
+              contributed: .user.contributionsCollection.totalCommitContributions
+            },
+            repositories: [
+              .user.repositories.nodes[] | {
+                name,
+                updatedAt,
+                isFork,
+                stars: .stargazers.totalCount,
+                forks: .forkCount
+              }
+            ],
+            organizations: {
+              count: ($orgs[0] | length),
+              list: $orgs[0]
+            },
+            generated: .meta.generated
+          }' /metrics_renders/github-metrics.json > github-metrics.json
+
+          rm orgs.json
+
+      - name: upd json
+        run: |
+          git pull --rebase
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-metrics.json
+          git diff --staged --quiet || git commit -m "Update github-metrics.json"
+          git push
