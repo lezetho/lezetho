@@ -31,9 +31,9 @@ jobs:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
           gh api --paginate user/orgs --jq '[.[] | {login, url: ("https://github.com/" + .login)}]' \
-            | jq -s 'add // []' > orgs.json
+            | jq -s 'add // []' > /tmp/orgs.json
 
-          jq --slurpfile orgs orgs.json '{
+          jq --slurpfile orgs /tmp/orgs.json '{
             commits: {
               total: .computed.commits,
               contributed: .user.contributionsCollection.totalCommitContributions
@@ -52,13 +52,12 @@ jobs:
               list: $orgs[0]
             },
             generated: .meta.generated
-          }' /metrics_renders/github-metrics.json > github-metrics.json
-
-          rm orgs.json
+          }' /metrics_renders/github-metrics.json > /tmp/trimmed.json
 
       - name: upd json
         run: |
           git pull --rebase
+          cp /tmp/trimmed.json github-metrics.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add github-metrics.json
