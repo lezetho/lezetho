@@ -34,11 +34,11 @@ jobs:
             | jq -s 'add // []' > /tmp/orgs.json
 
           jq --slurpfile orgs /tmp/orgs.json '{
-            commits: {
-              total: .computed.commits,
-              contributed: .user.contributionsCollection.totalCommitContributions
+            commits: .computed.commits,
+            repositories: {
+              owned: .user.repositories.totalCount,
+              contributed_to: .user.repositoriesContributedTo.totalCount
             },
-            repositories: .user.repositories.totalCount,
             organizations: {
               count: ($orgs[0] | length),
               list: $orgs[0]
