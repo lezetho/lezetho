@@ -1,9 +1,9 @@
 {
-  "commits": {
-    "total": 12625,
-    "contributed": 6906
+  "commits": 12631,
+  "repositories": {
+    "owned": 39,
+    "contributed_to": 140
   },
-  "repositories": 39,
   "organizations": {
     "count": 12,
     "list": [
@@ -57,5 +57,5 @@
       }
     ]
   },
-  "generated": "13 Oct 2026, 20:03:42"
+  "generated": "13 Oct 2026, 21:45:25"
 }
