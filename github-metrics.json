@@ -1,11 +1,11 @@
 {
-  "commits": 15673,
+  "commits": 15623,
   "repositories": {
     "owned": 44,
-    "contributed_to": 149
+    "contributed_to": 147
   },
   "organizations": {
-    "count": 13,
+    "count": 12,
     "list": [
       {
         "login": "ERM-Systems",
@@ -36,10 +36,6 @@
         "url": "https://github.com/hostingerlc"
       },
       {
-        "login": "voxexmusic",
-        "url": "https://github.com/voxexmusic"
-      },
-      {
         "login": "lumosystems",
         "url": "https://github.com/lumosystems"
       },
@@ -61,5 +57,5 @@
       }
     ]
   },
-  "generated": "15 Nov 2026, 15:17:27"
+  "generated": "15 Nov 2026, 20:47:18"
 }
